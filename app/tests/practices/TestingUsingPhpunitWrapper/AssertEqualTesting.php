@@ -6,6 +6,6 @@ class AssertEqualTesting extends TestCase {
     {
         $greeting = 'Hello, World.';
         Should :: equal('Hello, World.', $greeting);
-        Assert :: equals('Hello, World.', $greeting);
+        Assert :: equals('Hello, World', $greeting);
     }
 }

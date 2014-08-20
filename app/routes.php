@@ -16,7 +16,4 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/','welcome/sayhello', function()
-{
-    return "Hello";
-});
+Route::get('student/sayhi','StudentController@sayhi');

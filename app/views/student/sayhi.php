@@ -1,5 +1,1 @@
-<?php
-
-echo "Hi I am Shuvo";
-
-?>
+Hi I am also <?php echo $name;?>

@@ -4,7 +4,8 @@ class StudentController extends BaseController {
 
     public function sayhi()
     {
-        return View::make('student/sayhi');
+        return View::make('student/sayhi')
+            ->with('name','Shuvo');
     }
 
 }

@@ -1,0 +1,1 @@
+Hi I am also bappa <?php echo $name;?>
